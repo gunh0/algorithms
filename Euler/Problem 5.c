@@ -15,5 +15,5 @@ void main()
 	{
 		gap=getLCM(gap,i);
 	}
-	printf("%d",gap);
+	printf("%d\n",gap);
 }
