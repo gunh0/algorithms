@@ -10,21 +10,26 @@ int main()
 	int cnt5 = 0;
 
 	cin >> suger;
-	sugerCpy = suger;
 
-	for (int i = 0; i <= sugerCpy / 5; i++)
+	cnt5 = suger / 5;
+	if (suger % 5 == 0)
 	{
-		if (suger % 3 == 0)
-			cnt3 = suger / 3;
-		if (suger % 5 == 0)
+		cout << cnt5 << endl;
+		return 0;
+	}
+
+	for (int i = cnt5; i >= 0; i--)
+	{
+		if ((suger - i * 5) % 3 == 0)
 		{
-			cnt5 = suger / 5;
+			cnt3 = (suger - i * 5) / 3;
+			cnt5 = i;
 			break;
 		}
-		suger -= 5;
 	}
-	if (cnt3 + cnt5 == 0) cout << "-1" << endl;
-	else cout << cnt3 + (sugerCpy - (cnt3 * 3)) / 5 << endl;
+
+	if (cnt3 == 0) cout << "-1" << endl;
+	else cout << cnt3 + cnt5 << endl;
 
 	return 0;
 }
