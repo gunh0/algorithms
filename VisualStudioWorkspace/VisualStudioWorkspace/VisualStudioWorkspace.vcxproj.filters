@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="2-5_ShortestPath.c">
+    <ClCompile Include="3-1_CoinExchange_dp.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
