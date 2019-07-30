@@ -1,5 +1,5 @@
 # VisualStudio2019
 /VisualStudioWorkspace/.vs
-/VisualStudioWorkspace/Debug
-/VisualStudioWorkspace/VisualStudioWorkspace/Debug
+/VisualStudioWorkspace/x64
+/VisualStudioWorkspace/VisualStudioWorkspace/x64/
 /VisualStudioWorkspace/VisualStudioWorkspace/VisualStudioWorkspace.vcxproj.user
