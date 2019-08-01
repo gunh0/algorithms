@@ -15,10 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="3-1_CoinExchange_dp.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="3-2_FindMaxCommonPartialString.c">
+    <ClCompile Include="3-3_MinimumEditingProblem.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
