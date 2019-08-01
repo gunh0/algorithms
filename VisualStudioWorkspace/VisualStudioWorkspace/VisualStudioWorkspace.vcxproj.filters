@@ -18,5 +18,8 @@
     <ClCompile Include="3-1_CoinExchange_dp.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="3-2_FindMaxCommonPartialString.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
