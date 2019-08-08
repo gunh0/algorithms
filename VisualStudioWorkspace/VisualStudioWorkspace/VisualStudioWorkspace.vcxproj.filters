@@ -18,5 +18,8 @@
     <ClCompile Include="3-4_MatrixMultiplication.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="10989_수 정렬하기 3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
