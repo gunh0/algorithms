@@ -18,8 +18,5 @@
     <ClCompile Include="3-4_MatrixMultiplication.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="11654_아스키 코드.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>
