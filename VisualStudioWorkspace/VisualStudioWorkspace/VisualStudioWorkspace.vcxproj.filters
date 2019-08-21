@@ -18,5 +18,8 @@
     <ClCompile Include="3-4_MatrixMultiplication.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="2675_문자열 반복.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
