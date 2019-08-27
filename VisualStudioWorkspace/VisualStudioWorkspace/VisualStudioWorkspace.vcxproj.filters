@@ -18,7 +18,7 @@
     <ClCompile Include="3-4_MatrixMultiplication.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="11365_!밀비 급일.cpp">
+    <ClCompile Include="2751_수 정렬하기 2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
