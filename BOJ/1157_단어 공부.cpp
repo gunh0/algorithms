@@ -6,16 +6,13 @@ int main()
 {
 	string str;
 	cin >> str;
-	int strcnt['Z' - 'A' + 1] = { 0, };
+	int strcnt['z' - 'a' + 1] = { 0, };
 	for (int i = 0; i < str.length(); i++) {
-		if (str[i] >= 'a' && str[i] <= 'z')
-		{
-			strcnt[str[i] - 'a']++;
-		}
-		if (str[i] >= 'A' && str[i] >= 'Z')
-		{
+		if (str[i] >= 'A' && str[i] <= 'Z')
 			strcnt[str[i] - 'A']++;
-		}
+
+		if (str[i] >= 'a' && str[i] <= 'z')
+			strcnt[str[i] - 'a']++;
 	}
 
 	int max = 0;
@@ -34,9 +31,16 @@ int main()
 	{
 		if (strcnt[k] == max) flag++;
 	}
-	if (flag >= 2) cout << "?" << endl;
-	else if (flag == 1) cout << str[index] << endl;
-	else cout << "error!" << endl;
-	
+	if (flag >= 2)
+	{
+		cout << "?" << endl;
+		return 0;
+	}
+
+	if (index+'A' >= 'A' && index + 'A' <= 'Z')
+		printf("%c\n", index + 'A');
+	else
+		printf("%c\n", index - 'a' + 'A');
+
 	return 0;
 }
