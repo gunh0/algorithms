@@ -18,5 +18,11 @@
     <ClCompile Include="3-4_MatrixMultiplication.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="2447_별 찍기 - 10.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="1157_단어 공부.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
