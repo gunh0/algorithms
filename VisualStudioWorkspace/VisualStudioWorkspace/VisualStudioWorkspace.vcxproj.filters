@@ -21,7 +21,7 @@
     <ClCompile Include="2447_별 찍기 - 10.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="2902_KMP는 왜 KMP일까.cpp">
+    <ClCompile Include="1152_단어의 개수.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
