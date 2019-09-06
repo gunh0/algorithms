@@ -21,8 +21,5 @@
     <ClCompile Include="2447_별 찍기 - 10.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="1712_손익분기점.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>
