@@ -21,5 +21,8 @@
     <ClCompile Include="2447_별 찍기 - 10.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="2908_상수.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
