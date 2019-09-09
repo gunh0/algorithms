@@ -21,7 +21,10 @@
     <ClCompile Include="2447_별 찍기 - 10.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="2908_상수.cpp">
+    <ClCompile Include="5622_다이얼.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="10757_큰 수 A+B.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
