@@ -24,11 +24,5 @@
     <ClCompile Include="5622_다이얼.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="1094_막대기.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>
