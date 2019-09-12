@@ -15,13 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="3-4_MatrixMultiplication.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="2447_별 찍기 - 10.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="5622_다이얼.cpp">
+    <ClCompile Include="3-5_BinomialCoefficient.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

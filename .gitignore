@@ -1,5 +1,4 @@
 # VisualStudio2019
-/VisualStudioWorkspace/.vs
-/VisualStudioWorkspace/x64
-/VisualStudioWorkspace/VisualStudioWorkspace/x64/
-/VisualStudioWorkspace/VisualStudioWorkspace/VisualStudioWorkspace.vcxproj.user
+/AlgorithmWorkspace/.vs
+/AlgorithmWorkspace/Debug
+/AlgorithmWorkspace/AlgorithmWorkspace.vcxproj.user
