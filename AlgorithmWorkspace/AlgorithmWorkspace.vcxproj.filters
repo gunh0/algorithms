@@ -18,8 +18,5 @@
     <ClCompile Include="3-5_BinomialCoefficient.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="11729_하노이 탑 이동 순서.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>
