@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="3-5_BinomialCoefficient.c">
+    <ClCompile Include="3-6_StackTheTallestTower.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
