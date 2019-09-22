@@ -18,5 +18,8 @@
     <ClCompile Include="3-6_StackTheTallestTower.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Hash_1_완주하지 못한 선수.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
