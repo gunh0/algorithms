@@ -21,5 +21,8 @@
     <ClCompile Include="Hash_1_완주하지 못한 선수.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="1316_그룹 단어 체커.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
