@@ -21,6 +21,26 @@
 #include <stdio.h>
 
 int number[5] = { 1,2,3,4,5 };	// 벽돌 번호
+int width[5] = { 25,4,9,16,1 };	// 넓이
+int height[5] = { 3,4,2,2,5 };	// 높이
+int weigth[5] = { 4,6,3,5,2 };	// 무게
+int block[5];	// i번째에서 아래에 높이는 벽돌 번호
+int heighest[5];	// i번째에서의 최고 높이
+
+void sort()
+{
+
+}
+
+void dynamic()
+{
+
+}
+
+void print_result()
+{
+
+}
 
 int main()
 {
