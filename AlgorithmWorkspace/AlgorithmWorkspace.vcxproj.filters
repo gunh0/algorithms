@@ -24,7 +24,7 @@
     <ClCompile Include="1316_그룹 단어 체커.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="10874_이교수님의 시험.cpp">
+    <ClCompile Include="10881_프로도의 선물 포장.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
