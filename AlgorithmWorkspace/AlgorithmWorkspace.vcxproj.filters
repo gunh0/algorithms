@@ -24,5 +24,8 @@
     <ClCompile Include="1316_그룹 단어 체커.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="10874_이교수님의 시험.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
