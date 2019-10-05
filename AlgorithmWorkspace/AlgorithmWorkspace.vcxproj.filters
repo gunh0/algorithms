@@ -18,13 +18,13 @@
     <ClCompile Include="Hash_1_완주하지 못한 선수.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="1316_그룹 단어 체커.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="10881_프로도의 선물 포장.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="3-7_CorporateInvestment.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="1018_체스판 다시 칠하기.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
