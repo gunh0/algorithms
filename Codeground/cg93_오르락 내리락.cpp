@@ -8,11 +8,11 @@ Do not use file input and output
 Please be very careful.
 */
 
-#include <iostream>
-#include <vector>
-#include <stdio.h>
-
 #define _CRT_SECURE_NO_WARNINGS
+
+#include <iostream>
+//#include <vector>
+#include <stdio.h>
 
 using namespace std;
 
@@ -66,18 +66,16 @@ int main(int argc, char** argv)
 
 	//cout << "end" << endl;
 
-	cin >> T;
+	scanf("%d", &T);
 	for (test_case = 0; test_case < T; test_case++)
 	{
-
 		Answer = 0;
 		/////////////////////////////////////////////////////////////////////////////////////////////
 		int n, m;
-		cin >> n >> m;
+		scanf("%d %d", &n, &m);
 		for (int i = n; i <= m; i++)
 		{
 			Answer += arr[i];
-
 		}
 		/////////////////////////////////////////////////////////////////////////////////////////////
 
