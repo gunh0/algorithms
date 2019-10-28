@@ -1,43 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Source Files">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
-    </Filter>
-    <Filter Include="Header Files">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
-    </Filter>
-    <Filter Include="Resource Files">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
-    </Filter>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="Hash_1_완주하지 못한 선수.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="10881_프로도의 선물 포장.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="3-7_CorporateInvestment.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="1018_체스판 다시 칠하기.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="cg2_프로그래밍 경진대회.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="10845_큐.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="cg95_점프.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="2555_생일 출력하기.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
+    <ClCompile Include="Hash_1_완주하지 못한 선수.cpp" />
+    <ClCompile Include="3-7_CorporateInvestment.c" />
+    <ClCompile Include="1018_체스판 다시 칠하기.cpp" />
+    <ClCompile Include="10845_큐.cpp" />
+    <ClCompile Include="10881_프로도의 선물 포장.cpp" />
+    <ClCompile Include="cg2_프로그래밍 경진대회.cpp" />
+    <ClCompile Include="cg95_점프.cpp" />
   </ItemGroup>
 </Project>
