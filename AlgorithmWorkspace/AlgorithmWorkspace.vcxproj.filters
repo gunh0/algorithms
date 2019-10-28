@@ -33,5 +33,11 @@
     <ClCompile Include="10845_큐.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="cg95_점프.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="2555_생일 출력하기.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
