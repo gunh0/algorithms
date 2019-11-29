@@ -6,9 +6,9 @@
     <ClCompile Include="10881_프로도의 선물 포장.cpp" />
     <ClCompile Include="cg2_프로그래밍 경진대회.cpp" />
     <ClCompile Include="cg95_점프.cpp" />
-    <ClCompile Include="4-5_n-QueenProblem.c" />
     <ClCompile Include="4-6_MovementOfWallDoor.c" />
-    <ClCompile Include="5-1_CircularCall.c" />
     <ClCompile Include="5-2_GoodSequence.c" />
+    <ClCompile Include="5-1-1_RecursiveCall.c" />
+    <ClCompile Include="5-1-2_RecursiveCall.cpp" />
   </ItemGroup>
 </Project>
