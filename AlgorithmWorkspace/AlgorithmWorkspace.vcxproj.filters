@@ -6,7 +6,7 @@
     <ClCompile Include="10881_프로도의 선물 포장.cpp" />
     <ClCompile Include="cg2_프로그래밍 경진대회.cpp" />
     <ClCompile Include="cg95_점프.cpp" />
-    <ClCompile Include="5-4_Divide-and-conquer.c" />
-    <ClCompile Include="5-5_ScaleProblem.c" />
+    <ClCompile Include="5-5-1_ScaleProblem-One.c" />
+    <ClCompile Include="5-5-2_ScaleProblem-Both.c" />
   </ItemGroup>
 </Project>
