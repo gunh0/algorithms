@@ -9,6 +9,8 @@ Please be very careful.
 */
 
 #include <iostream>
+#include <vector>
+#include <algorithm>
 
 using namespace std;
 
@@ -39,12 +41,45 @@ int main(int argc, char** argv)
 		   Implement your algorithm here.
 		   The answer to the case will be stored in variable Answer.
 		 */
-		 /////////////////////////////////////////////////////////////////////////////////////////////
 
-		 // Print the answer to standard output(screen).
+		int n = 0;
+		vector<int> vec;
+		cin >> n;
+		for (int i = 0; i < n; i++)
+		{
+			int input;
+			cin >> input;
+			vec.push_back(input);
+		}
+
+		sort(vec.begin(), vec.end());
+
+		int maxval = 0;
+
+		for (int i = 0; i < vec.size(); i++)
+		{
+			if (vec[i] + n - i >= maxval)
+				maxval = vec[i] + n - i;
+		}
+
+		int cnt = 0;
+		for (int i = 0; i < vec.size(); i++)
+		{
+			if (vec[i] + n < maxval)
+				cnt++;
+			else
+			{
+				Answer = n - cnt;
+				break;
+			}
+		}
+
+		/////////////////////////////////////////////////////////////////////////////////////////////
+
+		// Print the answer to standard output(screen).
 		cout << "Case #" << test_case + 1 << endl;
 		cout << Answer << endl;
 	}
 
-	return 0;//Your program should return 0 on normal termination.
+	return 0;	//Your program should return 0 on normal termination.
 }
