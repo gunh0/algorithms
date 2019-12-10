@@ -5,5 +5,6 @@
     <ClCompile Include="10845_큐.cpp" />
     <ClCompile Include="10881_프로도의 선물 포장.cpp" />
     <ClCompile Include="cg95_점프.cpp" />
+    <ClCompile Include="cg5_이항계수의 합.cpp" />
   </ItemGroup>
 </Project>
