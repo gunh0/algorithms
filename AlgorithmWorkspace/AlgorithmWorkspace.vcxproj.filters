@@ -2,7 +2,6 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <ClCompile Include="Hash_1_완주하지 못한 선수.cpp" />
-    <ClCompile Include="10845_큐.cpp" />
     <ClCompile Include="10881_프로도의 선물 포장.cpp" />
     <ClCompile Include="cg95_점프.cpp" />
     <ClCompile Include="cg6_미궁 속의 방.cpp" />
