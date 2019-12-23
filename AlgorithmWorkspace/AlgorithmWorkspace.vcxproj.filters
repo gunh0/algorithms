@@ -4,6 +4,5 @@
     <ClCompile Include="10881_프로도의 선물 포장.cpp" />
     <ClCompile Include="cg95_점프.cpp" />
     <ClCompile Include="cg6_미궁 속의 방.cpp" />
-    <ClCompile Include="2775_부녀회장이 될테야.cpp" />
   </ItemGroup>
 </Project>
