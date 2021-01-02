@@ -1,4 +1,4 @@
-### *Algorithms* and *data structures* implemented in C & C++
+# _Algorithms_ and _data structures_ implemented in C & C++
 
 <br>
 
@@ -12,15 +12,15 @@
 
 ## Solve Algorithms [Korean]
 
-- **BOJ** : https://www.acmicpc.net/
+-   **BOJ** : https://www.acmicpc.net/
 
-- **Codeground** : https://www.codeground.org/
+-   **Codeground** : https://www.codeground.org/
 
-- **Programmers** : https://programmers.co.kr/learn/challenges
+-   **Programmers** : https://programmers.co.kr/learn/challenges
 
-- **Euler** : https://projecteuler.net/
+-   **Euler** : https://projecteuler.net/
 
-- **Korea Olympiad In Informatics (KOI)**
+-   **Korea Olympiad In Informatics (KOI)**
 
 <p align="center">
     <img src="README.assets/koi.png"/>
@@ -32,7 +32,7 @@
 
 ### Big O Notation
 
-*Big O notation* is used to classify algorithms according to how their running time or space requirements grow as the input size grows. On the chart below you may find most common orders of growth of algorithms specified in Big O notation.
+_Big O notation_ is used to classify algorithms according to how their running time or space requirements grow as the input size grows. On the chart below you may find most common orders of growth of algorithms specified in Big O notation.
 
 <p align="center">
     <img src="README.assets/big-o-graph.png"/>
@@ -73,14 +73,14 @@ Below is the list of some of the most used Big O notations and their performance
 
 ### Array Sorting Algorithms Complexity
 
-| Name               | Best     | Average                 | Worst       | Memory | Stable | Comments                                                     |
-| ------------------ | -------- | ----------------------- | ----------- | ------ | ------ | ------------------------------------------------------------ |
-| **Bubble sort**    | n        | n2                      | n2          | 1      | Yes    |                                                              |
-| **Insertion sort** | n        | n2                      | n2          | 1      | Yes    |                                                              |
-| **Selection sort** | n2       | n2                      | n2          | 1      | No     |                                                              |
-| **Heap sort**      | n log(n) | n log(n)                | n log(n)    | 1      | No     |                                                              |
-| **Merge sort**     | n log(n) | n log(n)                | n log(n)    | n      | Yes    |                                                              |
+| Name               | Best     | Average                 | Worst       | Memory | Stable | Comments                                                      |
+| ------------------ | -------- | ----------------------- | ----------- | ------ | ------ | ------------------------------------------------------------- |
+| **Bubble sort**    | n        | n2                      | n2          | 1      | Yes    |                                                               |
+| **Insertion sort** | n        | n2                      | n2          | 1      | Yes    |                                                               |
+| **Selection sort** | n2       | n2                      | n2          | 1      | No     |                                                               |
+| **Heap sort**      | n log(n) | n log(n)                | n log(n)    | 1      | No     |                                                               |
+| **Merge sort**     | n log(n) | n log(n)                | n log(n)    | n      | Yes    |                                                               |
 | **Quick sort**     | n log(n) | n log(n)                | n2          | log(n) | No     | Quicksort is usually done in-place with O(log(n)) stack space |
-| **Shell sort**     | n log(n) | depends on gap sequence | n (log(n))2 | 1      | No     |                                                              |
-| **Counting sort**  | n + r    | n + r                   | n + r       | n + r  | Yes    | r - biggest number in array                                  |
-| **Radix sort**     | n * k    | n * k                   | n * k       | n + k  | Yes    | k - length of longest key                                    |
+| **Shell sort**     | n log(n) | depends on gap sequence | n (log(n))2 | 1      | No     |                                                               |
+| **Counting sort**  | n + r    | n + r                   | n + r       | n + r  | Yes    | r - biggest number in array                                   |
+| **Radix sort**     | n \* k   | n \* k                  | n \* k      | n + k  | Yes    | k - length of longest key                                     |
