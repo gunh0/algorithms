@@ -1,4 +1,4 @@
-# _Algorithms_ and _data structures_ implemented in C & C++ 🇰🇷
+# C/C++ Algorithmic Solutions: From Basics to Advanced 🇰🇷
 
 <br>
 
