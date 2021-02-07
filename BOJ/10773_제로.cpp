@@ -6,7 +6,7 @@ using namespace std;
 int main()
 {
 	vector<int> vec;
-	int k = 0, tmp=0;
+	int k = 0, tmp = 0;
 	int result = 0;
 	cin >> k;
 	for (int i = 0; i < k; i++)

@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-	string str="";
+	string str = "";
 	do
 	{
 		if (str != "")

@@ -14,7 +14,7 @@ void findParent(int nodeNum)
 {
 	visited[nodeNum] = true;
 
-	//DFS
+	// DFS
 	for (int i = 0; i < tree[nodeNum].size(); i++)
 	{
 

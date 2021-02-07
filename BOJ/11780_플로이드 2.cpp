@@ -1,5 +1,5 @@
-#include<iostream>
-#include<vector>
+#include <iostream>
+#include <vector>
 
 #define endl "\n"
 #define MAX 110
@@ -11,7 +11,12 @@ int Cost[MAX][MAX];
 int Route[MAX][MAX];
 vector<int> V;
 
-int Min(int A, int B) { if (A < B) return A; return B; }
+int Min(int A, int B)
+{
+	if (A < B)
+		return A;
+	return B;
+}
 
 void Input()
 {
@@ -40,7 +45,8 @@ void Floyd_Warshall()
 		{
 			for (int j = 1; j <= N; j++)
 			{
-				if (i == j) continue;
+				if (i == j)
+					continue;
 				if (Cost[i][j] > Cost[i][k] + Cost[k][j])
 				{
 					Cost[i][j] = Cost[i][k] + Cost[k][j];
@@ -71,8 +77,10 @@ void Solution()
 	{
 		for (int j = 1; j <= N; j++)
 		{
-			if (Cost[i][j] == INF) cout << 0 << " ";
-			else cout << Cost[i][j] << " ";
+			if (Cost[i][j] == INF)
+				cout << 0 << " ";
+			else
+				cout << Cost[i][j] << " ";
 		}
 		cout << endl;
 	}
@@ -80,13 +88,15 @@ void Solution()
 	{
 		for (int j = 1; j <= N; j++)
 		{
-			if (Cost[i][j] == INF) cout << 0;
+			if (Cost[i][j] == INF)
+				cout << 0;
 			else
 			{
 				V.clear();
 				Find_Route(i, j);
 				cout << V.size() << " ";
-				for (int k = 0; k < V.size(); k++) cout << V[k] << " ";
+				for (int k = 0; k < V.size(); k++)
+					cout << V[k] << " ";
 			}
 			cout << endl;
 		}
@@ -105,7 +115,7 @@ int main(void)
 	cin.tie(NULL);
 	cout.tie(NULL);
 
-	//freopen("Input.txt", "r", stdin);
+	// freopen("Input.txt", "r", stdin);
 	Solve();
 
 	return 0;

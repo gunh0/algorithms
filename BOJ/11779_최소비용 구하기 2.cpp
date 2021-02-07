@@ -19,7 +19,7 @@ vector<int> dijkstra(int start, int vertex)
 	distance[start] = 0;
 
 	priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> pq;
-	pq.push({ 0, start });
+	pq.push({0, start});
 
 	while (!pq.empty())
 	{
@@ -40,7 +40,7 @@ vector<int> dijkstra(int start, int vertex)
 			{
 				distance[neighbor] = neighborDistance;
 				trace[neighbor] = cur;
-				pq.push({ neighborDistance, neighbor });
+				pq.push({neighborDistance, neighbor});
 			}
 		}
 	}
@@ -58,7 +58,7 @@ int main(void)
 	{
 		int u, v, w;
 		cin >> u >> v >> w;
-		graph[u].push_back({ v, w });
+		graph[u].push_back({v, w});
 	}
 
 	int start, finish;

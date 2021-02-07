@@ -5,11 +5,15 @@ int main()
 {
 	int N, K;
 	cin >> N >> K;
-	int* arr = new int[N] {0, };
-	int* order = new int[N];
+	int *arr = new int[N]{
+		0,
+	};
+	int *order = new int[N];
 	int point = -1;
-	for (size_t i = 0; i < N; i++) {
-		for (size_t j = 0; j < K; j++) {
+	for (size_t i = 0; i < N; i++)
+	{
+		for (size_t j = 0; j < K; j++)
+		{
 			if (arr[(++point) % N] != 0)
 				j--;
 		}

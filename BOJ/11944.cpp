@@ -13,7 +13,7 @@ int main()
 		cnt++;
 	}
 
-	if (nn*cnt <= m)
+	if (nn * cnt <= m)
 	{
 		for (int i = 0; i < nn; i++)
 			printf("%d", nn);
