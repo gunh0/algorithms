@@ -11,7 +11,7 @@ bool desc(int a, int b)
 
 int main()
 {
-	int len = 0, tmp=0;
+	int len = 0, tmp = 0;
 	vector<int> a;
 	vector<int> b;
 	cin >> len;

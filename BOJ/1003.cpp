@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-	int a = 0, b = 0, pb = 0, n = 0, cnt=0;
+	int a = 0, b = 0, pb = 0, n = 0, cnt = 0;
 	cin >> cnt;
 	for (int j = 0; j < cnt; j++)
 	{
@@ -16,7 +16,8 @@ int main()
 		}
 		for (int i = 1; i <= n; i++)
 		{
-			if (i == 1)	b += 1;
+			if (i == 1)
+				b += 1;
 			else
 			{
 				pb = b;

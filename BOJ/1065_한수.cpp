@@ -5,14 +5,17 @@ using namespace std;
 
 int main()
 {
-	int num = 0, hansu=0;
+	int num = 0, hansu = 0;
 	cin >> num;
 
 	for (int i = 1; i <= num; i++)
 	{
-		if (i < 100) hansu = i;
-		else if (i == 1000) break;
-		else {
+		if (i < 100)
+			hansu = i;
+		else if (i == 1000)
+			break;
+		else
+		{
 			int digit = 0, tmp = i;
 			vector<int> numArr(3);
 			while (tmp > 0)

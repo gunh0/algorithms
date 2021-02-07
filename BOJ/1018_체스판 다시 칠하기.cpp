@@ -13,27 +13,25 @@ string board[MAX];
 
 //(0, 0)이 W인 체스보드
 string whiteFirst[8] = {
-		{ "WBWBWBWB" },
-		{ "BWBWBWBW" },
-		{ "WBWBWBWB" },
-		{ "BWBWBWBW" },
-		{ "WBWBWBWB" },
-		{ "BWBWBWBW" },
-		{ "WBWBWBWB" },
-		{ "BWBWBWBW" }
-};
+	{"WBWBWBWB"},
+	{"BWBWBWBW"},
+	{"WBWBWBWB"},
+	{"BWBWBWBW"},
+	{"WBWBWBWB"},
+	{"BWBWBWBW"},
+	{"WBWBWBWB"},
+	{"BWBWBWBW"}};
 
 //(0, 0)이 B인 체스보드
 string blackFirst[8] = {
-		{ "BWBWBWBW" },
-		{ "WBWBWBWB" },
-		{ "BWBWBWBW" },
-		{ "WBWBWBWB" },
-		{ "BWBWBWBW" },
-		{ "WBWBWBWB" },
-		{ "BWBWBWBW" },
-		{ "WBWBWBWB" }
-};
+	{"BWBWBWBW"},
+	{"WBWBWBWB"},
+	{"BWBWBWBW"},
+	{"WBWBWBWB"},
+	{"BWBWBWBW"},
+	{"WBWBWBWB"},
+	{"BWBWBWBW"},
+	{"WBWBWBWB"}};
 
 //(0, 0)이 W인 체스보드 기준 바뀔 칸 수
 int whiteFirstChange(int y, int x)
@@ -74,4 +72,3 @@ int main(void)
 	cout << result << endl;
 	return 0;
 }
-
