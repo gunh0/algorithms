@@ -11,7 +11,6 @@ int M, N;
 
 string board[MAX];
 
-//(0, 0)이 W인 체스보드
 string whiteFirst[8] = {
 	{"WBWBWBWB"},
 	{"BWBWBWBW"},
@@ -22,7 +21,6 @@ string whiteFirst[8] = {
 	{"WBWBWBWB"},
 	{"BWBWBWBW"}};
 
-//(0, 0)이 B인 체스보드
 string blackFirst[8] = {
 	{"BWBWBWBW"},
 	{"WBWBWBWB"},
@@ -33,7 +31,6 @@ string blackFirst[8] = {
 	{"BWBWBWBW"},
 	{"WBWBWBWB"}};
 
-//(0, 0)이 W인 체스보드 기준 바뀔 칸 수
 int whiteFirstChange(int y, int x)
 {
 	int cnt = 0;
@@ -45,7 +42,6 @@ int whiteFirstChange(int y, int x)
 	return cnt;
 }
 
-//(0, 0)이 B인 체스보드 기준 바뀔 칸 수
 int blackFirstChange(int y, int x)
 {
 	int cnt = 0;
