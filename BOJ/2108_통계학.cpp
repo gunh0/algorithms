@@ -1,41 +1,70 @@
 #include <iostream>
 #include <vector>
-#include <cmath>
+#include <map>
 #include <algorithm>
+#include <cmath>
 
 using namespace std;
 
-int main(void) {
-	ios_base::sync_with_stdio(false); cin.tie(NULL);
-	int N, temp, mean = 0, mode = 0, min, max = 0;
-	bool isSecond = false;
-	cin >> N;
-	vector<int> vec(N);
-	vector<int> vec2(8001, 0);
-	for (int i = 0; i < N; i++) {
-		cin >> vec[i];
-		mean += vec[i];
-		temp = (vec[i] <= 0) ? abs(vec[i]) : vec[i] + 4000;
-		vec2[temp]++;
-		if (vec2[temp] > max)
-			max = vec2[temp];
-	}
-	sort(vec.begin(), vec.end());
+int main()
+{
+	ios_base::sync_with_stdio(false);
+	cin.tie(NULL);
 
-	for (int i = -4000; i < 4001; i++) {
-		temp = i <= 0 ? abs(i) : i + 4000;
-		if (vec2[temp] == max) {
-			mode = i;
-			if (isSecond)
-				break;
-			isSecond = true;
+	int n;
+	cin >> n;
+
+	vector<int> data(n);
+	map<int, int> count;
+	int sum = 0;
+
+	// Read input and calculate sum and frequency
+	for (int i = 0; i < n; i++)
+	{
+		cin >> data[i];
+		sum += data[i];
+		count[data[i]]++;
+	}
+
+	// Sort data for median and range calculation
+	sort(data.begin(), data.end());
+
+	// 1. Arithmetic mean (rounded to nearest integer)
+	double mean = (double)sum / n;
+	cout << (int)round(mean) << '\n';
+
+	// 2. Median (middle value in sorted array)
+	cout << data[n / 2] << '\n';
+
+	// 3. Mode (most frequent value, if tie then second smallest)
+	int maxFreq = 0;
+	for (auto &p : count)
+	{
+		maxFreq = max(maxFreq, p.second);
+	}
+
+	vector<int> modes;
+	for (auto &p : count)
+	{
+		if (p.second == maxFreq)
+		{
+			modes.push_back(p.first);
 		}
 	}
 
-	cout << round(mean / (double)N) << '\n';
-	cout << vec[round(N / 2)] << '\n';
-	cout << mode << '\n';
-	min = vec[0];
-	max = vec[vec.size() - 1];
-	cout << max - min << '\n';
+	sort(modes.begin(), modes.end());
+
+	if (modes.size() == 1)
+	{
+		cout << modes[0] << '\n';
+	}
+	else
+	{
+		cout << modes[1] << '\n'; // Second smallest mode
+	}
+
+	// 4. Range (difference between max and min)
+	cout << data[n - 1] - data[0] << '\n';
+
+	return 0;
 }
