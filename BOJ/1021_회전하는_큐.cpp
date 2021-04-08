@@ -16,7 +16,7 @@ int main()
 		cin >> num;
 
 		int front = 0, back = 0;
-		// 앞 & 뒤에서 가장 가까운쪽 찾기
+		// Find which direction (front or back) the target is closer from
 		for (int i = 0; i < N; i++)
 		{
 			if (deque[i] == num)
@@ -31,7 +31,7 @@ int main()
 			}
 		}
 
-		// 더 가까운쪽에서부터 시작
+		// Perform operation based on which direction is closer
 		if (front)
 		{
 			while (1)
