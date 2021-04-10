@@ -1,3 +1,4 @@
+// @ts-nocheck
 // Problem: 11382 - 꼬마 정민
 // A + B + C calculation with large numbers (up to 10^12)
 
